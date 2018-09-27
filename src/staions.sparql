@@ -1,0 +1,54 @@
+select ?name where {
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_あ> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_い> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_う-え> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_お> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_か> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_き> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_く-け> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_こ> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_さ> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_し-しも> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_しや-しん> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_す-そ> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_た> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_ち-て> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_と> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_な> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_に> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_ぬ-の> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_は> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_ひ> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_ふ-ほ> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_ま> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_み> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_む-も> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  union
+  {<http://ja.dbpedia.org/resource/日本の鉄道駅一覧_や-わ行> <http://dbpedia.org/ontology/wikiPageWikiLink> ?station .}
+  ?station a dbpedia-owl:Station .
+  ?station rdfs:label ?name .
+}
+order by ?name

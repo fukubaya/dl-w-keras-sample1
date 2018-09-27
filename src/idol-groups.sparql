@@ -1,0 +1,5 @@
+select ?name where {
+  ?gp <http://dbpedia.org/ontology/wikiPageWikiLink> <http://ja.dbpedia.org/resource/Category:日本のアイドルグループ>.
+  ?gp rdfs:label ?name .
+}
+order by ?name

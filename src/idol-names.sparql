@@ -1,0 +1,5 @@
+select ?name where {
+  ?idol <http://dbpedia.org/ontology/wikiPageWikiLink> <http://ja.dbpedia.org/resource/Category:日本のアイドル>.
+  ?idol rdfs:label ?name .
+}
+order by ?name
