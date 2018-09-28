@@ -6,7 +6,8 @@
 
 ## 資料
 
-当日
+https://docs.google.com/presentation/d/1gH54QGfOJV6467om_E7fe_N5WEHLSEEMBi5IfOB-dwQ/edit?usp=sharing
+
 
 ### 下準備
 
@@ -32,4 +33,5 @@ python3.6.6で動作確認しています。
 % python src/rnn.py --hidden 128 --seq 2 --iter 50 data/stations.txt
 % python src/rnn.py --hidden 128 --seq 2 --iter 50 data/idol-groups.txt
 % python src/rnn.py --hidden 128 --seq 2 --iter 50 data/idol-names.txt
+% python src/rnn.py --hidden 128 --seq 2 --iter 200 data/tif2018.txt
 ```
